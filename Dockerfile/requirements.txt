@@ -1,0 +1,6 @@
+matplotlib
+pycocotools
+albumentations
+wandb
+tqdm
+opencv-python

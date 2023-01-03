@@ -1,0 +1,2 @@
+checkpoints/FU_checkpoints/unet/221201_FU_unet_checkpoint_epoch200.pth filter=lfs diff=lfs merge=lfs -text
+checkpoints/MA_checkpoints/unet/221201_MA_unet_checkpoint_epoch200.pth filter=lfs diff=lfs merge=lfs -text
