@@ -1,0 +1,1 @@
+python3 test.py -d FU -f ./checkpoints/FU_checkpoints/unet/FU_Unet_Checkpoint_epoch200.pth 

@@ -1,0 +1,1 @@
+python3 test.py -d MA -f ./checkpoints/MA_checkpoints/unet/MA_Unet_Checkpoint_epoch200.pth 
