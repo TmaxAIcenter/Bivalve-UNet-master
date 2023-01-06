@@ -1,3 +1,7 @@
+wget https://github.com/TmaxAIcenter/Bivalve-UNet-master/releases/download/chackpoint/FU_Unet_Checkpoint_epoch200.pth
+mv FU_Unet_Checkpoint_epoch200.pth checkpoints/FU_checkpoints/unet/
+wget https://github.com/TmaxAIcenter/Bivalve-UNet-master/releases/download/chackpoint/MA_Unet_Checkpoint_epoch200.pth
+mv MA_Unet_Checkpoint_epoch200.pth checkpoints/MA_checkpoints/unet/
 mkdir Dataset
 cd Dataset
 mkdir FU
