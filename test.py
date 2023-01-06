@@ -111,7 +111,7 @@ def get_args():
     parser.add_argument('--wandb_mode','-w', dest='wandb_mode', metavar='W', type=str, default='online', help='WandB Mode is disabled, online, dryrun, offline, run')
     parser.add_argument('--model_type', '-mt', dest='model_type', metavar='MT', type=str, default='unet', help='Model type is unet, deeplab_v3_plus')
     parser.add_argument('--dataset_type', '-d', dest='dataset_type', metavar='D', type=str, default='FU', help='Dataset type is FU, MA')
-    parser.add_argument('--batch-size', '-b', dest='batch_size', metavar='B', type=int, default=8, help='Batch size')
+    parser.add_argument('--batch-size', '-b', dest='batch_size', metavar='B', type=int, default=1, help='Batch size')
     parser.add_argument('--load', '-f', type=str, default=False, help='Load model from a .pth file')
     parser.add_argument('--scale', '-s', type=float, default=0.5, help='Scale factor for the input images')
     parser.add_argument('--bilinear', action='store_true', default=False, help='Use bilinear upsampling')
