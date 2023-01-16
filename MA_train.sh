@@ -1,0 +1,1 @@
+python3 train.py --model_type unet --dataset_type MA --epochs 200 --batch-size 32 --learning-rate 0.0001
